@@ -18,7 +18,11 @@
     font-size: 15px;
     cursor: pointer;
 }
-
+.foodinfobottombutton button:nth-child(1){
+    background-color: #ffffff;
+    border: 1px solid #1f89cd;
+    color: rgb(0, 4, 27);
+}
 .foodCardBottomRight h2 {
     font-family: 'poppins';
 font-weight: 600;
@@ -130,7 +134,10 @@ font-weight: 600;
     gap: 14px;
     flex-direction: column;
 }
-
+.foodinfobutton1{
+    background: #fff;
+    border: 1px solid#1f89cd;
+}
 .foodCardBottomRight h2 {
     font-size: 500;
 

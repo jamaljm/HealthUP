@@ -14,7 +14,7 @@ export default function Doccard() {
                 </div>
               <div className="foodCardBottomRight">
                   <div className='doccardinfos'>
-                   <h2>Tony Fernandez</h2>
+                   <h2>Allen Reji</h2>
                   <p>Gastroenterologists</p>
                   </div>
                  
@@ -35,7 +35,9 @@ export default function Doccard() {
                         </div>
                    
                         <div className="foodinfobottombutton">
-                            <button className="foodinfobutton">Book NOw</button>
+                          <button className="foodinfobutton">Book NOw</button>
+                                                      <button className="foodinfobutton">Book NOw</button>
+
                             
                     </div>
                         

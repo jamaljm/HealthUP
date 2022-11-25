@@ -35,7 +35,10 @@ export default function Doccard() {
                         </div>
                    
                         <div className="foodinfobottombutton">
-                            <button className="foodinfobutton">Book NOw</button>
+                          <button className="foodinfobutton">₹150</button>
+                    
+                              <button className="foodinfobutton1">Book NOw</button>
+                              
                             
                     </div>
                         
