@@ -98,6 +98,9 @@ export default function FeaturedInfo() {
         
       </div>
       <div className="featuredItem2">
+        <div className="zimagebg">
+          <img src="https://cdn.dribbble.com/users/1233499/screenshots/16684883/media/51c8f1eb6e67f7502b9118d97ae161d2.png"></img>
+          </div>
                <Quiz/>
 
       </div>

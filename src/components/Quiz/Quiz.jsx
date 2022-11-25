@@ -61,14 +61,13 @@ const Quiz = () => {
   return (
     <>
       {showScore ? (
-        <div className="score-section">
-          You scored {score} out of {questions.length}
-        </div>
+       <sdfd/>
       ) : (
-        <>
+                  <>
+                      <div className="question-sectioncard">
           <div className="question-section">
             <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
+              <span>What are you feelig?</span>
             </div>
             <div className="question-text">
               {questions[currentQuestion].questionText}
@@ -82,7 +81,8 @@ const Quiz = () => {
                 {answerOption.answerText}
               </button>
             ))}
-          </div>
+                          </div>
+                          </div>
         </>
       )}
     </>
