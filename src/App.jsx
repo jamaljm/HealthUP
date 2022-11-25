@@ -36,7 +36,7 @@ function App() {
           {auth && <Sidebar />}
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
-            {<Route  path="/home" element={<Home />} />}
+            { <Route  path="/home" element={<Home />} />}
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

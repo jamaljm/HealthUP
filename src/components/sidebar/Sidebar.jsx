@@ -17,7 +17,7 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarWrapper">
         <div className="sidebarLogo">
-          <img src="https://i.imgur.com/2fBbWUk.png"></img>
+          <img src="https://i.imgur.com/rMj5qV4.png"></img>
 
        
         </div>
@@ -39,12 +39,13 @@ export default function Sidebar() {
             <Link to="/home" className="link">
               <li className="sidebarListItem active">
                 <Widgets className="sidebarIcon active" />
-                
+                Home
               </li>
             </Link>
             <Link to="/home" className="link">
               <li className="sidebarListItem">
                 <TrendingUp className="sidebarIcon" />
+                Profile
               </li>
             </Link>
             {/* <Link to="" className="link"> */}
