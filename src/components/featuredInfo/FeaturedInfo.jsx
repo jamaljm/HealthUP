@@ -86,6 +86,8 @@ export default function FeaturedInfo() {
     
             <div className="mycarinfo">
               <button><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button>
+            
+              <p>Location: Edappally</p>
 
             </div>
           </div>
@@ -98,7 +100,17 @@ export default function FeaturedInfo() {
        
       </div>
       <div className="featuredItem3">
-         
+        <div className="medicincard">
+          <div className="medicincardrem">
+            <div className="medicinimg">
+
+            </div>
+            <div className="medreminderinfo">
+              <p>Medicine</p>
+              <p>Location: Edappally</p>
+            </div>
+            </div>
+          </div>
 
       </div>
     </div>

@@ -7,7 +7,7 @@
       margin-left: 0px;
       background: #4364be;
       overflow-y: hidden;
-      max-width: 218px;
+      max-width: 250px;
       overflow-x: hidden;
       display: flex;
       align-content: space-around;
@@ -19,7 +19,7 @@
 
 .sidebarMenu {
   margin-bottom: 10px;
-  padding:150px 0px;
+  padding:23px 0px;
 border-radius: 20px;
     margin-top: 10px;
 }
@@ -110,9 +110,10 @@ border: none;
 
 }
 .sidebarLogo img{
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+    width: 200px;
+      height: 50px;
+      margin-top: 33px;
+      object-fit: contain;
 
 }
 .sidebarLogo {

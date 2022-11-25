@@ -6,6 +6,7 @@ import {
   Storefront,
   AttachMoney,
   BarChart,
+  LocalHospital ,
   FoodBank,
 } from "@material-ui/icons";
 import { Link } from "react-router-dom";
@@ -44,20 +45,20 @@ export default function Sidebar() {
             </Link>
             <Link to="/home" className="link">
               <li className="sidebarListItem">
-                <TrendingUp className="sidebarIcon" />
+                <PermIdentity className="sidebarIcon" />
                 Profile
               </li>
             </Link>
             {/* <Link to="" className="link"> */}
             <li className="sidebarListItem">
-              <PermIdentity className="sidebarIcon" />
-              
+              <LocalHospital className="sidebarIcon" />
+              Doctors
             </li>
             {/* </Link> */}
 
             <li className="sidebarListItem">
               <BarChart className="sidebarIcon" />
-              
+              Ambulance
             </li>
           </ul>
         </div>
