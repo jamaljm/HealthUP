@@ -6,6 +6,8 @@ import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
 import Doccard from "../doccard/Doccard";
+import Doccard1 from "../doccard/Doccard1";
+
 
 export default function Doctorcard() {
   const token = window.localStorage.getItem("token");
@@ -99,7 +101,7 @@ export default function Doctorcard() {
       </div>
       <div className="featuredItem2">
               <Doccard />
-              <Doccard />
+              <Doccard1 />
               <Doccard />
 
           

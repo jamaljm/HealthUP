@@ -10,34 +10,34 @@ export default function Doccard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://i.imgur.com/j0vf0EO.png" alt="" className="foodimage" />
+                    <img src="https://i.imgur.com/FQzWFaH.png" alt="" className="foodimage" />
                 </div>
               <div className="foodCardBottomRight">
                   <div className='doccardinfos'>
                    <h2>Allen Reji</h2>
-                  <p>Gastroenterologists</p>
+                  <p>physician</p>
                   </div>
                  
                     <div className="foodInfo">
                         
                         <div className="foodInfoBottom">
                             <div className="foodInfoChild">
-                                <span className="foodInfoKey">Experience : 5 Years </span>
+                                <span className="foodInfoKey">Experience : 7 Years </span>
                           </div>
                            <div className="foodInfoChild">
                                 <LocationOn />
-                                <span className="foodInfoKey">Kochi </span>
+                                <span className="foodInfoKey">Chennai </span>
                             </div>
                       </div>
                        <div className="foodInfoBottom">
-                           <img src='https://i.imgur.com/e2VNmAY.png'></img>
+                           <img src='https://i.imgur.com/wt4OwyU.png'></img>
 
                         </div>
                    
                         <div className="foodinfobottombutton">
-                          <button className="foodinfobutton">Book NOw</button>
-                                                      <button className="foodinfobutton">Book NOw</button>
-
+<button className="foodinfobutton">₹200</button>
+                    
+                              <button className="foodinfobutton1">Book NOw</button>                          
                             
                     </div>
                         
