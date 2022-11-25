@@ -4,11 +4,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
-
-
-
-
-
+import Sidebar from "../sidebar/Sidebar";
 
 export default function FeaturedInfo() {
   const token = window.localStorage.getItem("token");
@@ -36,6 +32,7 @@ export default function FeaturedInfo() {
   }
   return (
     <div className="featured">
+      <Sidebar />
       <div className="featuredItem1">
 
       </div>
