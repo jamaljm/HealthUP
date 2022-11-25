@@ -24,6 +24,8 @@ function SignupPage() {
     }));
   };
 
+
+
   const handleSubmit1 = (e) => {
     e.preventDefault();
     console.log(state);
@@ -31,19 +33,20 @@ function SignupPage() {
       username : state.name,
       password : state.password
     };
+    //http://localhost:5000/api/signup/
     axios.post("http://localhost:5000/api/signup/", 
-    userData).then((response) => response.data)
-      
+    userData).then((res) => res.data)
+    //console.log(res.data)
       .then(res => {
-
+        console.log("hi2")
         if (res) {
-          //console.log("hi")
+          console.log("hi3")
           navigate("/home");
           setLogin(res);
           window.location.reload();
         }
 
-        console.log(res);
+        //console.log(res);
         // handle success
       })
       .catch((err) => {
