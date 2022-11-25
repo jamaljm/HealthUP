@@ -38,9 +38,6 @@
     flex: 2.8;
     margin: 0px 35px 0px 20px;
     border-radius: 30px;
-    cursor: pointer;
-    background: rgb(234 234 234);
-    padding: 20px;
 
 }
 .featuredTitle{
@@ -431,13 +428,13 @@ background: #ff5757;
     
 }
 .medicincard{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+    align-items: flex-start;
     flex-direction: column;
     width: 100%;
     z-index: 6;
     height: 100%;
+    background: #d6ebff;
     justify-content: space-between;
     gap: 10px;
     padding: 16px 0px 15px 0px;

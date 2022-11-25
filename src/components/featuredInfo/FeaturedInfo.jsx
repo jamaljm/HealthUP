@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
 import { useNavigate } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
+import Quiz from "../Quiz/Quiz";
 
 export default function FeaturedInfo() {
   const token = window.localStorage.getItem("token");
@@ -97,11 +98,13 @@ export default function FeaturedInfo() {
         
       </div>
       <div className="featuredItem2">
-       
+               <Quiz/>
+
       </div>
       <div className="featuredItem3">
         <div className="medicincard">
           <div className="medicincardrem">
+            
             <div className="medicinimg">
 
             </div>
