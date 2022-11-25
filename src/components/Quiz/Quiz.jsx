@@ -4,18 +4,18 @@ import './Quiz.css'
 const Quiz = () => {
     const questions = [
       {
-        questionText: "What is the capital of France?",
+        questionText: "what you feeling?",
         answerOptions: [
-          { answerText: "New York", isCorrect: false },
-          { answerText: "London", isCorrect: false },
-          { answerText: "Paris", isCorrect: true },
-          { answerText: "Dublin", isCorrect: false },
+          { answerText: "Physical Pain", isCorrect: false },
+          { answerText: "Headache", isCorrect: false },
+          { answerText: "Fever", isCorrect: true },
+          { answerText: "Other", isCorrect: false },
         ],
       },
       {
-        questionText: "Who is CEO of Tesla?",
+        questionText: "Where do you feel pain?",
         answerOptions: [
-          { answerText: "Jeff Bezos", isCorrect: false },
+          { answerText: "dsxf ", isCorrect: false },
           { answerText: "Elon Musk", isCorrect: true },
           { answerText: "Bill Gates", isCorrect: false },
           { answerText: "Tony Stark", isCorrect: false },
@@ -67,7 +67,7 @@ const Quiz = () => {
                       <div className="question-sectioncard">
           <div className="question-section">
             <div className="question-count">
-              <span>What are you feelig?</span>
+              <span>Consult a doctor</span>
             </div>
             <div className="question-text">
               {questions[currentQuestion].questionText}

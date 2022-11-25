@@ -36,17 +36,16 @@ width: 100%;
 }
 
 .answer-section button {
-    width: 80%;
+width: 80%;
     font-size: 12px;
     color: #fff;
-    background-color: #234668 !important;
+    background-color: #6faae3 !important;
     border-radius: 15px;
     display: flex;
-    padding: 5px;
-    gap: 5px;
+    padding: 7px 11px;
+    gap: 7px;
     justify-content: flex-start;
     align-items: center;
-    border: 5px solid #234668;
     cursor: pointer;
 }
 
@@ -72,7 +71,7 @@ button svg {
 .question-sectioncard{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 100%;
     z-index: 6;
