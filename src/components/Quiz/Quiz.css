@@ -78,3 +78,22 @@ button svg {
     height: 100%;
     padding: 16px 0px 15px 0px;
 }
+.submit-button-doctor{
+    margin-top: -90px;
+}
+.submit-button-doctor button{
+    background: #218df9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}

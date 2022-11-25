@@ -28,6 +28,15 @@ export default function Doccard() {
                                 <LocationOn />
                                 <span className="foodInfoKey">Kochi </span>
                             </div>
+                      </div>
+                       <div className="foodInfoBottom">
+                            <div className="foodInfoChild">
+                                <span className="foodInfoKey">Experience : 5 Years </span>
+                          </div>
+                           <div className="foodInfoChild">
+                                <LocationOn />
+                                <span className="foodInfoKey">Kochi </span>
+                            </div>
                         </div>
                    
                         <div className="foodinfobottombutton">

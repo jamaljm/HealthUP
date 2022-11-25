@@ -63,7 +63,11 @@ const Quiz = () => {
   return (
     <>
       {showScore ? (
-       <Link to="/doctorcard">Submit</Link>
+              <Link to="/doctorcard">
+                  <div className='submit-button-doctor'>
+                        <button className='submit-button-doctor'>Consult best doctor</button>
+                  </div>
+       </Link>
       ) : (
                   <>
                       <div className="question-sectioncard">
