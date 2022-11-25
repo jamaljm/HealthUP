@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
 import Quiz from "../Quiz/Quiz";
 
+
 export default function FeaturedInfo() {
   const token = window.localStorage.getItem("token");
   const [data, setData] = useState([]);
@@ -86,7 +87,7 @@ export default function FeaturedInfo() {
             </div>
     
             <div className="mycarinfo">
-              <button><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button>
+              <button Link to={<Video />}><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button>
             
               <p>Location: Edappally</p>
 

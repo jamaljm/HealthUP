@@ -16,6 +16,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import { useState } from "react";
+import Video from "./pages/video/Video";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             {/* <Route path="/*" element={<Landingpage />} /> */}
             {<Route path="/home" element={<Home />} />}
             { <Route  path="/doctorcard" element={<Doctorcard />} />}
+            { <Route  path="/video" element={<Video />} />}
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

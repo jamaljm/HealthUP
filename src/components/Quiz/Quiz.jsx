@@ -2,9 +2,19 @@ import React from 'react'
 import { useState } from 'react';
 import './Quiz.css'
 import { Link } from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 const Quiz = () => {
     const questions = [
+      {
+        questionText: "select your age range",
+        answerOptions: [
+          { answerText: "0-12", isCorrect: false },
+          { answerText: "13-17", isCorrect: false},
+          { answerText: "18-40", isCorrect: false },
+          { answerText: "40+", isCorrect: false },
+        ],
+      },
       {
         questionText: "what you feeling?",
         answerOptions: [
@@ -23,6 +33,15 @@ const Quiz = () => {
           { answerText: "chest", isCorrect: false },
         ],
       },
+      {
+        questionText: "Are you on any medications?",
+        answerOptions: [
+          { answerText: "yes", isCorrect: false },
+          { answerText: "no", isCorrect: false},
+          
+        ],
+      },
+      
       
     ];
     	const [currentQuestion, setCurrentQuestion] = useState(0);
