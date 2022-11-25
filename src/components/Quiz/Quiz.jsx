@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
 import './Quiz.css'
+import { Link } from "react-router-dom";
+
 const Quiz = () => {
     const questions = [
       {
@@ -50,7 +52,7 @@ const Quiz = () => {
   return (
     <>
       {showScore ? (
-       <sdfd/>
+       <Link to="/doctorcard">Submit</Link>
       ) : (
                   <>
                       <div className="question-sectioncard">
