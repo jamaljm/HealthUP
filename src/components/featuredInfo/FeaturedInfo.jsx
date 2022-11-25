@@ -1,5 +1,5 @@
 import "./featuredInfo.css";
-import { CalendarToday, LocationOn, MoreVert } from "@material-ui/icons";
+import { CalendarToday, LocationOn, MoreVert, EmergencyShare  } from "@material-ui/icons";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { TbSquareDot } from "react-icons/tb";
@@ -72,21 +72,20 @@ export default function FeaturedInfo() {
            <div className="sidebarprofiletop">
               <div className="sidebarprofiletop-left">
 
-              <p>My Car
+              <p>Emergency!
                 </p>
               </div>
               
           </div>
           <div className="mallsmallcard">
             <div className="mycarimg">
-            <img src="">
+            <img src="https://i.imgur.com/KcP8t7E.png">
 
             </img>
             </div>
     
             <div className="mycarinfo">
-              <h3>Current Charge: 60%</h3>
-              <p>Estimated Km : 34km</p>
+              <button><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button>
 
             </div>
           </div>

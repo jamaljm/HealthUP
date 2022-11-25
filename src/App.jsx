@@ -20,7 +20,7 @@ import { useState } from "react";
 function App() {
   
   const [auth, setAuth] = useState(
-    false || window.localStorage.getItem("auth") === "false"
+    false || window.localStorage.getItem("auth") === "true"
   );
 
   const navigate = useNavigate();
@@ -36,7 +36,7 @@ function App() {
           {auth && <Sidebar />}
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
-            {<Route  path="/home" element={<Home />} />}
+            { <Route  path="/home" element={<Home />} />}
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

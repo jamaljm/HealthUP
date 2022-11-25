@@ -1,15 +1,16 @@
 .sidebar {
-  flex: 1;
-  min-height: calc(100vh);
-  position: sticky;
-  margin-top: 20px;
-  z-index: 60;
-  margin-left: 0px;
-  overflow-y: hidden;
-  max-width: 200px;
-overflow-x: hidden;
-  display: flex;
-  align-content: space-around;
+    flex: 1.8 1;
+      min-height: calc(100vh);
+      position: sticky;
+      z-index: 60;
+      margin-top: -25px;
+      margin-left: 0px;
+      background: #4364be;
+      overflow-y: hidden;
+      max-width: 218px;
+      overflow-x: hidden;
+      display: flex;
+      align-content: space-around;
 }
 
 .sidebarWrapper {
@@ -18,8 +19,7 @@ overflow-x: hidden;
 
 .sidebarMenu {
   margin-bottom: 10px;
-  background: #fff;
-  padding:150px 20px;
+  padding:150px 0px;
 border-radius: 20px;
     margin-top: 10px;
 }
@@ -44,13 +44,13 @@ border-radius: 20px;
   display: flex;
   align-items: center;
   border-radius: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
 
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    font-size: 20px;
    font-weight: 500;
 
@@ -62,7 +62,7 @@ border-radius: 20px;
     font-size: 25px !important;
 }
 .sidebarIcon.active{
-  color: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
 
 }
 .sidebarprofile{
@@ -98,7 +98,7 @@ border-radius: 20px;
 }
 .profileinfocard button{
 border: none;
-  background: #000000;
+  background: #5642ce;
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 400;
