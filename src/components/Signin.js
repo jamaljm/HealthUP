@@ -24,17 +24,6 @@ function SignupPage() {
     }));
   };
 
-  /*function axiosTest() {
-
-    
-    const promise = axios.post("http://localhost:5000/api/signup/", 
-    userData
-
-    )
-    const dataPromise = promise.then((response) => response.data)
-    return dataPromise
-  }*/
-
   const handleSubmit1 = (e) => {
     e.preventDefault();
     console.log(state);
@@ -44,26 +33,11 @@ function SignupPage() {
     };
     axios.post("http://localhost:5000/api/signup/", 
     userData).then((response) => response.data)
-    //axios
-    //  .post(
-     //   "http://localhost:5000/api/signup/" 
-
-     // )
-
-     //
-      //navigate("/home")
       
       .then(res => {
-          //console.log(res.data.message)
-          //console.log("hi")
-        if (res) {
-          console.log("hi")
-          //setToken(res.data.token);
-          //console.log("hh", res);
-          //window.localStorage.setItem("token", res.data.token);
-          //window.localStorage.setItem("auth", "true");
-          //window.localStorage.setItem("name", state.name);
 
+        if (res) {
+          //console.log("hi")
           navigate("/home");
           setLogin(res);
           window.location.reload();
