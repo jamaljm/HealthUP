@@ -7,6 +7,7 @@ import SignupPage from "./components/Signin";
 import Home from "./pages/home/Home";
 import React from "react";
 import "./app.css";
+import Doctorcard from "./components/doctorscard/Doctorcard";
 import {
   BrowserRouter,
   Navigate,
@@ -36,7 +37,8 @@ function App() {
           {auth && <Sidebar />}
           <Routes>
             {/* <Route path="/*" element={<Landingpage />} /> */}
-            { <Route  path="/home" element={<Home />} />}
+            {<Route path="/home" element={<Home />} />}
+            { <Route  path="/doctorcard" element={<Doctorcard />} />}
             {!auth ? (
               <Route exact path="/" element={<SignupPage />} />
             ) : (

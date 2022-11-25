@@ -12,7 +12,7 @@ import {
 export default function home() {
   return (
     <div className='home'>
-     <FeaturedInfo />
+     <Doctorcard />
       
     </div>
 
