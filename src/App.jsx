@@ -20,7 +20,7 @@ import { useState } from "react";
 function App() {
   
   const [auth, setAuth] = useState(
-    false || window.localStorage.getItem("auth") === "true"
+    false || window.localStorage.getItem("auth") === "false"
   );
 
   const navigate = useNavigate();

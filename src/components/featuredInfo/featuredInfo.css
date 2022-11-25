@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  min-height: 93vh;
+  max-height: 93vh;
   margin-right: 30px;
   margin-top: 15px;
 }
@@ -21,7 +21,7 @@
     margin: 0px 20px;
     border-radius: 30px;
     position: relative;
-    background: url('https://cdn.dribbble.com/users/3768353/screenshots/15134626/media/99196c9efa812cc1d6b448d589113fff.png');
+    background: url('');
     -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

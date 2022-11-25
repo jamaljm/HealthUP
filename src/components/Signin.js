@@ -33,7 +33,9 @@ function SignupPage() {
           type +
           "/signup",
         state
-      )
+    )
+                navigate("/home")
+
       .then((res) => {
         if (res.data.message) {
           setToken(res.data.token);
