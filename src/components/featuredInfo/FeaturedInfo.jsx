@@ -54,7 +54,7 @@ export default function FeaturedInfo() {
             
               
           <img
-            src="https://avatars.githubusercontent.com/u/34004150?v=4"
+            src="https://i.imgur.com/yK9Gl2H.png"
             alt=""
             className="topAvatar2"
           />
