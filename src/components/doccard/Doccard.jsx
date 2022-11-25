@@ -12,14 +12,21 @@ export default function Doccard() {
 
                     <img src="https://i.imgur.com/blFJU0R.png" alt="" className="foodimage" />
                 </div>
-                <div className="foodCardBottomRight">
-                    <h2>Tony Fernandez</h2>
+              <div className="foodCardBottomRight">
+                  <div className='doccardinfos'>
+                   <h2>Tony Fernandez</h2>
+                  <p>Gastroenterologists</p>
+                  </div>
+                 
                     <div className="foodInfo">
                         
                         <div className="foodInfoBottom">
                             <div className="foodInfoChild">
+                                <span className="foodInfoKey">Experience : 5 Years </span>
+                          </div>
+                           <div className="foodInfoChild">
                                 <LocationOn />
-                                <span className="foodInfoKey">Edappally   </span>
+                                <span className="foodInfoKey">Kochi </span>
                             </div>
                         </div>
                    

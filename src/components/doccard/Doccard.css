@@ -28,7 +28,13 @@ font-weight: 600;
 .foodCardTopRight {
     font-size: 12px;
 }
+.doccardinfos{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 0px;
 
+}
 .foodCard {
     background: #fff;
     border-radius: 20px;
