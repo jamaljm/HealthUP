@@ -18,17 +18,18 @@
     font-size: 15px;
     cursor: pointer;
 }
-.foodinfobottombutton button:nth-child(1){
-    background-color: #ffffff;
-    border: 1px solid #1f89cd;
-    color: rgb(0, 4, 27);
-}
+
 .foodCardBottomRight h2 {
     font-family: 'poppins';
 font-weight: 600;
     font-size: 18px;
 }
-
+.foodinfobottombutton a {
+    width: 100%;
+        display: flex;
+        gap: 10px;
+        text-decoration: none;
+}
 .foodCardTopRight {
     font-size: 12px;
 }

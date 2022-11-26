@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 import Sidebar from "../sidebar/Sidebar";
 import Doccard from "../doccard/Doccard";
 import Doccard1 from "../doccard/Doccard1";
+import Doccard2 from "../doccard/Doccard2";
 
 
 export default function Doctorcard() {
@@ -102,7 +103,7 @@ export default function Doctorcard() {
       <div className="featuredItem5">
               <Doccard />
               <Doccard1 />
-              <Doccard />
+              <Doccard2 />
 
           
 

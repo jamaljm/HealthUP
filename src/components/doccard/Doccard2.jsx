@@ -10,35 +10,38 @@ export default function Doccard() {
             <div className="foodCardBottom">
                 <div className="foodCardBottomLeft">
 
-                    <img src="https://i.imgur.com/j0vf0EO.png" alt="" className="foodimage" />
+                    <img src="https://i.imgur.com/rDYXWLb.png" alt="" className="foodimage" />
                 </div>
               <div className="foodCardBottomRight">
                   <div className='doccardinfos'>
-                   <h2>Tony Fernandez</h2>
-                  <p>Gastroenterologists</p>
+                   <h2>Riya Sunil</h2>
+                  <p>Cardiologist</p>
                   </div>
                  
                     <div className="foodInfo">
                         
                         <div className="foodInfoBottom">
                             <div className="foodInfoChild">
-                                <span className="foodInfoKey">Experience : 5 Years </span>
+                                <span className="foodInfoKey">Experience : 4 Years </span>
                           </div>
                            <div className="foodInfoChild">
                                 <LocationOn />
-                                <span className="foodInfoKey">Kochi </span>
+                                <span className="foodInfoKey">Mumbai </span>
                             </div>
                       </div>
-                       <div className="foodInfoBottom">
-                           <img src='https://i.imgur.com/e2VNmAY.png'></img>
+                      <div className="foodInfoBottom">
+                          <img src='https://i.imgur.com/QF9gztK.png'></img>
+
 
                         </div>
                    
-                        <div className="foodinfobottombutton">
-                        <a href='https://zippy-twilight-ea5a4e.netlify.app/'><button className="foodinfobutton">₹150</button>
+                      <div className="foodinfobottombutton">
+                          
+                             <a href='https://zippy-twilight-ea5a4e.netlify.app/'><button className="foodinfobutton">₹250</button>
                     
-                              <button className="foodinfobutton1">Consult Now</button> </a>
-                              
+                              <button className="foodinfobutton1">Consult Now</button> </a>                        
+
+                    
                             
                     </div>
                         
