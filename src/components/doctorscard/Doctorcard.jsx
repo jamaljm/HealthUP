@@ -157,6 +157,19 @@ export default function Doctorcard() {
               </div>
 
             
+                  <div className="botcard">
+          <div className="botcardtop">
+            <img src="https://i.imgur.com/qEF9dNq.png">
+
+            </img>
+            <br></br>
+          </div>
+          <div className="botcardbottom">
+            <br>
+            </br>
+            <a href="">Scan Your Medicine</a>
+          </div>
+              </div>
               
           </div>
           

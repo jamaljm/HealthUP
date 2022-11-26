@@ -87,7 +87,7 @@ export default function FeaturedInfo() {
             </div>
     
             <div className="mycarinfo">
-              <button><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button>
+              <a href="tel:108"><button><img src="https://i.imgur.com/IJn45M0.png"></img>Dial ambulance</button></a>
             
               <p>Location: Edappally</p>
 
@@ -112,7 +112,7 @@ export default function FeaturedInfo() {
             
             <div className="medicinimg">
               <img src="https://i.imgur.com/1YvsFBy.png"></img>
-              <p>Medicine</p>
+              <p>Paracetamol</p>
               
             </div>
             <div className="medreminderinfo">
@@ -125,12 +125,12 @@ export default function FeaturedInfo() {
             
             <div className="medicinimg">
               <img src="https://i.imgur.com/8fWrXoS.png"></img>
-              <p>Medicine</p>
+              <p>ventolin</p>
               
             </div>
             <div className="medreminderinfo">
               
-              <p>8:30 AM</p>
+              <p>1:30 PM</p>
             </div>
           </div>
           
@@ -138,18 +138,32 @@ export default function FeaturedInfo() {
             
             <div className="medicinimg">
               <img src="https://i.imgur.com/g3Hjylv.png"></img>
-              <p>Medicine</p>
+              <p>Levolin</p>
               
             </div>
             <div className="medreminderinfo">
               
-              <p>8:30 AM</p>
+              <p>9:30 PM</p>
             </div>
           </div>
           
 
                   </div>
-              </div>
+        </div>
+        
+        <div className="botcard">
+          <div className="botcardtop">
+            <img src="https://i.imgur.com/qEF9dNq.png">
+
+            </img>
+            <br></br>
+          </div>
+          <div className="botcardbottom">
+            <br>
+            </br>
+            <a href="">Scan Your Medicine</a>
+          </div>
+          </div>
 
             
          

@@ -60,6 +60,25 @@ export default function Sidebar() {
               <BarChart className="sidebarIcon" />
               Ambulance
             </li>
+            <br>
+            </br>
+            <br>
+            </br><br>
+            </br>
+            <br>
+            </br><br>
+            </br><br>
+            </br>
+            <br>
+            </br><br>
+            </br><br>
+            </br>
+            <br>
+            </br>
+             <li className="sidebarListItem">
+             <a href="https://t.me/Hlthupbot"><img src="https://miro.medium.com/max/300/1*YVTFl1UEkt3_rkez-DIU9w.png"></img></a> 
+            </li>
+            
           </ul>
         </div>
       </div>

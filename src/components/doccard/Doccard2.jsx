@@ -37,7 +37,7 @@ export default function Doccard() {
                    
                       <div className="foodinfobottombutton">
                           
-                             <a href='https://zippy-twilight-ea5a4e.netlify.app/'><button className="foodinfobutton">₹250</button>
+                             <a href='http://localhost:3000/'><button className="foodinfobutton">₹250</button>
                     
                               <button className="foodinfobutton1">Consult Now</button> </a>                        
 

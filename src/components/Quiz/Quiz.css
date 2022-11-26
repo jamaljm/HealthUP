@@ -91,6 +91,7 @@ button svg {
     font-weight: 600;
     width: 100%;
     margin-top: 10px;
+    font-size: 16px;
 
     display: flex;
     align-items: center;

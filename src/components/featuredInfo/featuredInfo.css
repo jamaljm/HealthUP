@@ -477,3 +477,36 @@ display: flex;
 .medicinimg p{
     margin-right: 10px;
 }
+.botcard{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        flex-direction: column;
+        width: 96%;
+        min-height: 48vh;
+        z-index: 6;
+        background: #b2dcff;
+        border-radius: 20px;
+}
+.botcardtop img{
+    width: 33vh;
+}
+.botcardbottom a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: #4300b0;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+
+}
+.mycarinfo a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-button-doctor a{
+    text-decoration: none;
+}
