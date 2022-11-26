@@ -56,7 +56,7 @@ export default function Doctorcard() {
             
               
           <img
-            src="https://avatars.githubusercontent.com/u/34004150?v=4"
+            src="https://i.imgur.com/yK9Gl2H.png"
             alt=""
             className="topAvatar2"
           />
@@ -99,7 +99,7 @@ export default function Doctorcard() {
         </div>
         
       </div>
-      <div className="featuredItem2">
+      <div className="featuredItem5">
               <Doccard />
               <Doccard1 />
               <Doccard />
@@ -110,20 +110,55 @@ export default function Doctorcard() {
 
       </div>
       <div className="featuredItem3">
-        <div className="medicincard">
+        <div className="medicincarda">
+     <div className="medicincard">
           <div className="medicincardrem">
             
             <div className="medicinimg">
-
+              <img src="https://i.imgur.com/1YvsFBy.png"></img>
+              <p>Medicine</p>
+              
             </div>
             <div className="medreminderinfo">
-              <p>Medicine</p>
-              <p>Location: Edappally</p>
-            </div>
+              
+              <p>8:30 AM</p>
             </div>
           </div>
+          
+           <div className="medicincardrem">
+            
+            <div className="medicinimg">
+              <img src="https://i.imgur.com/8fWrXoS.png"></img>
+              <p>Medicine</p>
+              
+            </div>
+            <div className="medreminderinfo">
+              
+              <p>8:30 AM</p>
+            </div>
+          </div>
+          
+           <div className="medicincardrem">
+            
+            <div className="medicinimg">
+              <img src="https://i.imgur.com/g3Hjylv.png"></img>
+              <p>Medicine</p>
+              
+            </div>
+            <div className="medreminderinfo">
+              
+              <p>8:30 AM</p>
+            </div>
+          </div>
+          
 
-      </div>
+                  </div>
+              </div>
+
+            
+              
+          </div>
+          
     </div>
   );
 }

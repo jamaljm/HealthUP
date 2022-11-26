@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react';
 import './Quiz.css'
 import { Link } from "react-router-dom";
-import {Helmet} from "react-helmet";
 
 const Quiz = () => {
     const questions = [

@@ -37,7 +37,7 @@ width: 100%;
 
 .answer-section button {
 width: 80%;
-    font-size: 12px;
+    font-size: 15px;
     color: #fff;
     background-color: #6faae3 !important;
     border-radius: 15px;
@@ -91,7 +91,7 @@ button svg {
     font-weight: 600;
     width: 100%;
     margin-top: 10px;
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;

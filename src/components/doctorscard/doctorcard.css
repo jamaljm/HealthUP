@@ -1,3 +1,19 @@
-.featuredItem2{
-    background: #fff;   
+.featuredItem5{
+    background: #e1f1ff; 
+    flex: 4;
+        margin: 0px 20px;
+        border-radius: 30px;
+        position: relative;
+        background: url('');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        padding: 0px;
+     
 }
