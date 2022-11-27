@@ -37,7 +37,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
- <img src="readmecover.jpeg" alt="Logo" >
 
 
 
