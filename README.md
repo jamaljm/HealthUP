@@ -20,7 +20,7 @@
   </a>
 
   <h1 align="center">HealthUP</h1>
-  <h2 align="center">Simplyfying and streamlining healthcare.</h2>
+  <h2 align="center">Simplyfying and streamlining frontline healthcare.</h2>
 
   <p align="center">
     A platform for the good-hearted!
