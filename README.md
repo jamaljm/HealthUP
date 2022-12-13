@@ -43,6 +43,9 @@
 
 Primary first round healthcare is too complex and time wasting. After waiting for hours in the waiting room and then seeing the doctor, most people are left with even more unanswered questions. Our solution, a one-stop medical consultation, provides accurate health information that can be accessed within 5 minutes! 
 
+<img src="Front-end/src/pages/h1.jpg"></img>
+<img src="Front-end/src/pages/h2.jpg"></img>
+<img src="Front-end/src/pages/h3.jpg"></img>
 
 
 
